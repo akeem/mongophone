@@ -1,0 +1,46 @@
+GIT
+  remote: git://github.com/akeem/mongo_stats.git
+  revision: 9987ba6c019260e82b0d2b9e5c617d09f2bd2496
+  specs:
+    mongo_stats (0.0.1)
+      bson_ext
+      mongo
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (3.0.10)
+    async-rack (0.5.1)
+      rack (~> 1.1)
+    bson (1.4.0)
+    bson_ext (1.4.0)
+    cramp (0.15.1)
+      activesupport (~> 3.0.9)
+      eventmachine (~> 1.0.0.beta.3)
+      rack (~> 1.3.2)
+      thor (~> 0.14.6)
+    daemons (1.1.4)
+    eventmachine (1.0.0.beta.4)
+    http_router (0.10.2)
+      rack (>= 1.0.0)
+      url_mount (~> 0.2.1)
+    mongo (1.4.0)
+      bson (= 1.4.0)
+    rack (1.3.3)
+    thin (1.2.11)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+    thor (0.14.6)
+    url_mount (0.2.1)
+      rack
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  async-rack
+  cramp
+  http_router
+  mongo_stats!
+  thin
